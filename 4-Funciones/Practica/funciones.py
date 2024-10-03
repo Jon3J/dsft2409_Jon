@@ -1,3 +1,5 @@
+from biblioteca import *
+
 def func1():
     print("Mensaje")
     
@@ -10,3 +12,4 @@ def resta(a,b):
 def operaciones(a,b):
     print(suma(a,b))
     print(resta(a,b))
+    func_menu()
